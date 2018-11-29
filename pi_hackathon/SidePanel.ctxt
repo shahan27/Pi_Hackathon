@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=game
+comment0.target=SidePanel(SnakeGame)
+comment0.text=\n\ Creates\ a\ new\ SidePanel\ instance.\n\ @param\ game\ The\ SnakeGame\ instance.\n
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+numComments=2

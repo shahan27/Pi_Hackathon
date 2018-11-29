@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=game
+comment0.target=BoardPanel(SnakeGame)
+comment0.text=\n\ Creates\ a\ new\ BoardPanel\ instance.\n\ @param\ game\ The\ SnakeGame\ instance.\n
+comment1.params=
+comment1.target=void\ clearBoard()
+comment1.text=\n\ Clears\ all\ of\ the\ tiles\ on\ the\ board\ and\ sets\ their\ values\ to\ null.\n
+comment2.params=point\ type
+comment2.target=void\ setTile(java.awt.Point,\ TileType)
+comment2.text=\n\ Sets\ the\ tile\ at\ the\ desired\ coordinate.\n\ @param\ point\ The\ coordinate\ of\ the\ tile.\n\ @param\ type\ The\ type\ to\ set\ the\ tile\ to.\n
+comment3.params=x\ y\ type
+comment3.target=void\ setTile(int,\ int,\ TileType)
+comment3.text=\n\ Sets\ the\ tile\ at\ the\ desired\ coordinate.\n\ @param\ x\ The\ x\ coordinate\ of\ the\ tile.\n\ @param\ y\ The\ y\ coordinate\ of\ the\ tile.\n\ @param\ type\ The\ type\ to\ set\ the\ tile\ to.\n
+comment4.params=x\ y
+comment4.target=TileType\ getTile(int,\ int)
+comment4.text=\n\ Gets\ the\ tile\ at\ the\ desired\ coordinate.\n\ @param\ x\ The\ x\ coordinate\ of\ the\ tile.\n\ @param\ y\ The\ y\ coordinate\ of\ the\ tile.\n\ @return\n
+comment5.params=g
+comment5.target=void\ paintComponent(java.awt.Graphics)
+comment6.params=x\ y\ type\ g
+comment6.target=void\ drawTile(int,\ int,\ TileType,\ java.awt.Graphics)
+comment6.text=\n\ Draws\ a\ tile\ onto\ the\ board.\n\ @param\ x\ The\ x\ coordinate\ of\ the\ tile\ (in\ pixels).\n\ @param\ y\ The\ y\ coordinate\ of\ the\ tile\ (in\ pixels).\n\ @param\ type\ The\ type\ of\ tile\ to\ draw.\n\ @param\ g\ The\ graphics\ object\ to\ draw\ to.\n
+numComments=7
